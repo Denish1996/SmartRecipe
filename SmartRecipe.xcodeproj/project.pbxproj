@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17149C8828F4CB4E0092A6A2 /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17149C8728F4CB4E0092A6A2 /* cardView.swift */; };
 		9DD19C0828F390A700758C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD19C0728F390A700758C5D /* AppDelegate.swift */; };
 		9DD19C0A28F390A700758C5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD19C0928F390A700758C5D /* SceneDelegate.swift */; };
 		9DD19C0C28F390A700758C5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD19C0B28F390A700758C5D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17149C8728F4CB4E0092A6A2 /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
 		9DD19C0428F390A700758C5D /* SmartRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD19C0728F390A700758C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DD19C0928F390A700758C5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17149C8628F4CB340092A6A2 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				17149C8728F4CB4E0092A6A2 /* cardView.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		9DD19BFB28F390A700758C5D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		9DD19C0628F390A700758C5D /* SmartRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				17149C8628F4CB340092A6A2 /* utils */,
 				9DD19C0728F390A700758C5D /* AppDelegate.swift */,
 				9DD19C0928F390A700758C5D /* SceneDelegate.swift */,
 				9DD19C0B28F390A700758C5D /* ViewController.swift */,
@@ -140,6 +151,7 @@
 			files = (
 				9DD19C0C28F390A700758C5D /* ViewController.swift in Sources */,
 				9DD19C0828F390A700758C5D /* AppDelegate.swift in Sources */,
+				17149C8828F4CB4E0092A6A2 /* cardView.swift in Sources */,
 				9DD19C0A28F390A700758C5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,13 +299,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAF885V6MW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SmartRecipe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Recepie";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,13 +329,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAF885V6MW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SmartRecipe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Recepie";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

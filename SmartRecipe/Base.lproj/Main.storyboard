@@ -116,10 +116,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KzY-5G-wQ1" customClass="cardView" customModule="SmartRecipe">
-                                <rect key="frame" x="15" y="101" width="360" height="159"/>
+                                <rect key="frame" x="15" y="101" width="360" height="389"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chicken Curry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uq-8B-8Ws">
-                                        <rect key="frame" x="159" y="8" width="112" height="26"/>
+                                        <rect key="frame" x="159" y="8" width="112" height="256"/>
                                         <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -141,7 +141,7 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2l2-ap-ZmM">
-                                        <rect key="frame" x="176" y="114" width="135" height="35"/>
+                                        <rect key="frame" x="176" y="344" width="135" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="135" id="BT8-aa-4qo"/>
                                             <constraint firstAttribute="height" constant="35" id="H4q-Oz-gIU"/>
@@ -181,17 +181,83 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wCp-hx-OSt" customClass="cardView" customModule="SmartRecipe">
+                                <rect key="frame" x="15" y="342" width="360" height="158"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chicken Curry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iX-9V-38n">
+                                        <rect key="frame" x="159" y="8" width="113" height="25"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s27-4c-QPU">
+                                        <rect key="frame" x="307" y="8" width="46" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="8qA-gn-Pdq"/>
+                                            <constraint firstAttribute="width" constant="46" id="qu7-4b-dL0"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="bookmark" catalog="system"/>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="L42-sg-QAS">
+                                        <rect key="frame" x="0.0" y="0.0" width="151" height="159"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="159" id="55a-KM-3Lf"/>
+                                            <constraint firstAttribute="width" constant="151" id="qu6-tc-XMM"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rse-Tq-f6z">
+                                        <rect key="frame" x="176" y="113" width="135" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="9LO-Ry-8ZX"/>
+                                            <constraint firstAttribute="width" constant="135" id="dk3-9G-Wbo"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Show Recepie"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstItem="rse-Tq-f6z" firstAttribute="leading" secondItem="L42-sg-QAS" secondAttribute="trailing" constant="25" id="01E-EQ-Y8t"/>
+                                    <constraint firstItem="s27-4c-QPU" firstAttribute="leading" secondItem="6iX-9V-38n" secondAttribute="trailing" constant="35" id="0pr-Io-Bf2"/>
+                                    <constraint firstItem="s27-4c-QPU" firstAttribute="top" secondItem="wCp-hx-OSt" secondAttribute="top" constant="8" id="7bo-Nw-hre"/>
+                                    <constraint firstAttribute="bottom" secondItem="L42-sg-QAS" secondAttribute="bottom" id="CHd-aA-fRt"/>
+                                    <constraint firstAttribute="bottom" secondItem="6iX-9V-38n" secondAttribute="bottom" constant="125" id="GJI-ED-x3B"/>
+                                    <constraint firstItem="6iX-9V-38n" firstAttribute="top" secondItem="wCp-hx-OSt" secondAttribute="top" constant="8" id="ItD-eI-eu8"/>
+                                    <constraint firstAttribute="trailing" secondItem="s27-4c-QPU" secondAttribute="trailing" constant="8" id="L34-lW-eHB"/>
+                                    <constraint firstItem="s27-4c-QPU" firstAttribute="leading" secondItem="6iX-9V-38n" secondAttribute="trailing" constant="35" id="Lgq-My-9fn"/>
+                                    <constraint firstAttribute="trailing" secondItem="rse-Tq-f6z" secondAttribute="trailing" constant="50" id="TVa-ej-wCk"/>
+                                    <constraint firstAttribute="bottom" secondItem="rse-Tq-f6z" secondAttribute="bottom" constant="10" id="acA-07-sMo"/>
+                                    <constraint firstAttribute="trailing" secondItem="s27-4c-QPU" secondAttribute="trailing" constant="8" id="hys-CH-NN2"/>
+                                    <constraint firstItem="6iX-9V-38n" firstAttribute="top" secondItem="wCp-hx-OSt" secondAttribute="top" constant="8" id="iuR-Zx-5ut"/>
+                                    <constraint firstItem="L42-sg-QAS" firstAttribute="top" secondItem="wCp-hx-OSt" secondAttribute="top" id="jhx-1i-aVY"/>
+                                    <constraint firstAttribute="bottom" secondItem="s27-4c-QPU" secondAttribute="bottom" constant="117" id="ly1-pk-LPg"/>
+                                    <constraint firstItem="L42-sg-QAS" firstAttribute="leading" secondItem="wCp-hx-OSt" secondAttribute="leading" id="o2X-A0-HME"/>
+                                    <constraint firstItem="rse-Tq-f6z" firstAttribute="top" secondItem="6iX-9V-38n" secondAttribute="bottom" constant="80" id="vPp-lB-c99"/>
+                                    <constraint firstItem="s27-4c-QPU" firstAttribute="top" secondItem="wCp-hx-OSt" secondAttribute="top" constant="8" id="veF-8z-4jU"/>
+                                    <constraint firstItem="s27-4c-QPU" firstAttribute="leading" secondItem="6iX-9V-38n" secondAttribute="trailing" constant="35" id="xtk-rr-Ayw"/>
+                                    <constraint firstItem="6iX-9V-38n" firstAttribute="leading" secondItem="L42-sg-QAS" secondAttribute="trailing" constant="8" id="zL0-11-RUf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="mycolor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K4k-z2-9Rd" customClass="cardView" customModule="SmartRecipe">
-                                <rect key="frame" x="14" y="290" width="362" height="159"/>
+                                <rect key="frame" x="15" y="520" width="361" height="159"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chicken Curry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJz-y7-DFU">
-                                        <rect key="frame" x="159" y="8" width="114" height="26"/>
+                                        <rect key="frame" x="159" y="8" width="113" height="26"/>
                                         <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0HG-Oc-Rni">
-                                        <rect key="frame" x="308" y="8" width="46" height="33"/>
+                                        <rect key="frame" x="307" y="8" width="46" height="33"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="33" id="9p2-3h-73d"/>
                                             <constraint firstAttribute="width" constant="46" id="YI0-gQ-sp3"/>
@@ -218,6 +284,8 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="159" id="3me-Ex-rFZ"/>
+                                    <constraint firstAttribute="width" constant="362" id="6Y8-p5-b26"/>
                                     <constraint firstItem="0HG-Oc-Rni" firstAttribute="top" secondItem="K4k-z2-9Rd" secondAttribute="top" constant="8" id="8cN-Oo-2nm"/>
                                     <constraint firstAttribute="trailing" secondItem="0HG-Oc-Rni" secondAttribute="trailing" constant="8" id="8eE-Ys-GvA"/>
                                     <constraint firstAttribute="trailing" secondItem="0HG-Oc-Rni" secondAttribute="trailing" constant="8" id="A8A-W4-5NU"/>
@@ -251,8 +319,12 @@
                         <constraints>
                             <constraint firstItem="K4k-z2-9Rd" firstAttribute="top" secondItem="KzY-5G-wQ1" secondAttribute="bottom" constant="30" id="2OU-lo-hkN"/>
                             <constraint firstItem="KzY-5G-wQ1" firstAttribute="top" secondItem="T62-5y-Iwg" secondAttribute="top" constant="10" id="Cbm-2I-PWH"/>
+                            <constraint firstItem="T62-5y-Iwg" firstAttribute="trailing" secondItem="K4k-z2-9Rd" secondAttribute="trailing" constant="12" id="FgD-vO-wzz"/>
                             <constraint firstItem="K4k-z2-9Rd" firstAttribute="leading" secondItem="T62-5y-Iwg" secondAttribute="leading" constant="14" id="Fnq-De-SBT"/>
+                            <constraint firstItem="T62-5y-Iwg" firstAttribute="bottom" secondItem="K4k-z2-9Rd" secondAttribute="bottom" constant="82" id="N3N-To-oWn"/>
+                            <constraint firstItem="K4k-z2-9Rd" firstAttribute="top" secondItem="wCp-hx-OSt" secondAttribute="bottom" constant="20" id="Rnc-fG-6bI"/>
                             <constraint firstItem="KzY-5G-wQ1" firstAttribute="leading" secondItem="T62-5y-Iwg" secondAttribute="leading" constant="15" id="VxR-HN-Lue"/>
+                            <constraint firstItem="K4k-z2-9Rd" firstAttribute="leading" secondItem="T62-5y-Iwg" secondAttribute="leading" constant="15" id="dYt-2B-yiB"/>
                             <constraint firstItem="T62-5y-Iwg" firstAttribute="trailing" secondItem="K4k-z2-9Rd" secondAttribute="trailing" constant="14" id="g6i-0k-APM"/>
                             <constraint firstItem="T62-5y-Iwg" firstAttribute="trailing" secondItem="KzY-5G-wQ1" secondAttribute="trailing" constant="15" id="hnL-gl-fty"/>
                         </constraints>

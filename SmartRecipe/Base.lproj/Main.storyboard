@@ -154,7 +154,6 @@
                                 <constraints>
                                     <constraint firstItem="j25-vZ-rED" firstAttribute="top" secondItem="KzY-5G-wQ1" secondAttribute="top" id="AES-eM-1ah"/>
                                     <constraint firstItem="4Zj-eo-MnK" firstAttribute="top" secondItem="KzY-5G-wQ1" secondAttribute="top" constant="8" id="E9L-V2-iQN"/>
-                                    <constraint firstAttribute="bottom" secondItem="4Zj-eo-MnK" secondAttribute="bottom" constant="117" id="H8j-Mj-0Cl"/>
                                     <constraint firstItem="j25-vZ-rED" firstAttribute="leading" secondItem="KzY-5G-wQ1" secondAttribute="leading" id="J8e-OQ-DGF"/>
                                     <constraint firstItem="6uq-8B-8Ws" firstAttribute="leading" secondItem="j25-vZ-rED" secondAttribute="trailing" constant="8" id="NQA-D6-zdV"/>
                                     <constraint firstItem="6uq-8B-8Ws" firstAttribute="top" secondItem="KzY-5G-wQ1" secondAttribute="top" constant="8" id="OJM-Tc-R9K"/>

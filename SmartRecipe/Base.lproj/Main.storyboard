@@ -115,11 +115,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KzY-5G-wQ1" customClass="cardView" customModule="SmartRecipe">
-                                <rect key="frame" x="15" y="101" width="359" height="172"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KzY-5G-wQ1" customClass="cardView" customModule="SmartRecipe">
+                                <rect key="frame" x="15" y="101" width="359" height="159"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chicken Curry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uq-8B-8Ws">
-                                        <rect key="frame" x="159" y="8" width="111" height="39"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Chicken Curry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uq-8B-8Ws">
+                                        <rect key="frame" x="159" y="8" width="139" height="33"/>
                                         <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -140,8 +140,8 @@
                                             <constraint firstAttribute="height" constant="159" id="ysI-5e-O1d"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2l2-ap-ZmM">
-                                        <rect key="frame" x="176" y="127" width="135" height="35"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2l2-ap-ZmM">
+                                        <rect key="frame" x="163" y="116" width="135" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="135" id="BT8-aa-4qo"/>
                                             <constraint firstAttribute="height" constant="35" id="H4q-Oz-gIU"/>
@@ -180,8 +180,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K4k-z2-9Rd" customClass="cardView" customModule="SmartRecipe">
-                                <rect key="frame" x="15" y="303" width="362" height="159"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K4k-z2-9Rd" customClass="cardView" customModule="SmartRecipe">
+                                <rect key="frame" x="16" y="287" width="363" height="159"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chicken Curry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJz-y7-DFU">
                                         <rect key="frame" x="159" y="8" width="114" height="26"/>
